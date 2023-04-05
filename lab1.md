@@ -1,6 +1,7 @@
 # **Logging into a Course Specific Account**
 ## 1. Make sure you have VSCode
 Find it on your dock and click on it because it's installed from previous quarters!
+![vscode](vscode.png)
 
 
 ## 2. Looking up your username
@@ -22,4 +23,11 @@ Your password will not show up but you can still enter it. Hit the ENTER button 
 You should see the welcome message at if password was entered correctly. Now you can try some commands.
 ![welcome](welcome.png) 
 
-## 7.
+## 7. Run Commands
+Try a few such as: 
+* cd ~
+* cd
+* ls -lat
+* ls -a
+
+![commands](commands.png)
