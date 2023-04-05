@@ -1,6 +1,7 @@
 # **Logging into a Course Specific Account**
 ## 1. Make sure you have VSCode
 Find it on your dock and click on it because it's installed from previous quarters!
+
 ![vscode](vscode.png)
 
 
@@ -29,5 +30,4 @@ Try a few such as:
 * cd
 * ls -lat
 * ls -a
-
 ![commands](commands.png)
