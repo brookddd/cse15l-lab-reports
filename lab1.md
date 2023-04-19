@@ -27,8 +27,10 @@ You should see the welcome message at if password was entered correctly. Now you
 
 ## 7. Run Commands
 Try a few such as: 
-* `cd ~`
-* `cd`
-* `ls -lat`
-* `ls -a`
+* `cd` changes directory
+* `cd ~` changes directory with an argument
+* `ls` lists the files in a folder
+* `ls -a` lists all files in a folder, even the hidden ones that begin with `.`
 ![commands](commands.png)
+
+Above, I ran various commands. Such as `pwd` which prints the working directory.
