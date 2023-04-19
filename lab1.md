@@ -1,6 +1,6 @@
 # **Logging into a Course Specific Account**
 ## 1. Make sure you have VSCode
-Find it on your dock and click on it because it's installed from previous quarters!
+Find it on your dock and click on it because it's installed from previous quarters! However, if you don't have it, you can go to [VSCode Download](https://code.visualstudio.com/download) and choose your operating system.
 
 ![vscode](vscode.png)
 
@@ -9,7 +9,8 @@ Find it on your dock and click on it because it's installed from previous quarte
 Go to the [account lookup website](https://sdacs.ucsd.edu/~icc/index.php). Log in and find your cse15l account name.
 
 ## 3.  Making sure you have git
-In VSCode enter the command `git --version` to see if you have git installed.
+In VSCode enter the command `git --version` to see if you have git installed. 
+If not, go to [Git Download](https://git-scm.com/downloads) and pick your operating system and download the appropriate version of Git.
 
 ## 4. Connecting to the remote server
 Enter `ssh` + your the course specific username you found followed by `@ieng6.ucsd.edu`
