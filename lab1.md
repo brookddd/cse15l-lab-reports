@@ -9,10 +9,10 @@ Find it on your dock and click on it because it's installed from previous quarte
 Go to the [account lookup website](https://sdacs.ucsd.edu/~icc/index.php). Log in and find your cse15l account name.
 
 ## 3.  Making sure you have git
-In VSCode enter the command *git --version* to see if you have git installed.
+In VSCode enter the command `git --version` to see if you have git installed.
 
 ## 4. Connecting to the remote server
-Enter "ssh" + your the course specific username you found followed by "@ieng6.ucsd.edu"
+Enter `ssh` + your the course specific username you found followed by `@ieng6.ucsd.edu`
 
 ![username](username.png)
 
@@ -26,8 +26,8 @@ You should see the welcome message at if password was entered correctly. Now you
 
 ## 7. Run Commands
 Try a few such as: 
-* cd ~
-* cd
-* ls -lat
-* ls -a
+* `cd ~`
+* `cd`
+* `ls -lat`
+* `ls -a`
 ![commands](commands.png)
