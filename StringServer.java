@@ -9,7 +9,7 @@ class Handler implements URLHandler {
         if (url.getPath().contains("/add")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                return parameters[1];
+                return "/n" + parameters[1];
                 }
             }
             return "404 Not Found!";
