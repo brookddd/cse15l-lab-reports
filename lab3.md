@@ -63,9 +63,7 @@ Tests run: 2,  Failures: 1`
 
 * After 
 `static void reverseInPlace(int[] arr) {
-
     for(int i = 0; i < arr.length/2; i += 1) {
-      
       int j = arr[i];
       arr[i] = arr[arr.length -i-1];
       arr[arr.length - i - 1] = j;
