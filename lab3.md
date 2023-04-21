@@ -30,7 +30,7 @@ insert screenshots and explanations here
 
 3. The Symptom:
 
- `There was 1 failure:
+`There was 1 failure:
 testReverseInPlace2(ArrayTests)
 arrays first differed at element [2]; expected:<1> but was:<3>
         at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
@@ -72,7 +72,7 @@ Tests run: 2,  Failures: 1`
     }
   }`
   
-* Description of why fixed
+* By creating a temporary `int j` that takes over the value in `arr[i]`, I can later assign a new value to `arr[i]`. Thus, changing the values in the exact same array.
 
 
 ## Part 3
