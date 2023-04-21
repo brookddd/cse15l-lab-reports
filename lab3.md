@@ -10,10 +10,15 @@ insert screenshots and explanations here
 1. Failure Inducing Input
 * I did my tests with the ArrayExamples file. 
 `@Test 
+
 	public void testReverseInPlace2() {
+	
     int[] input1 = { 1,2,3 };
+    
     ArrayExamples.reverseInPlace(input1);
+    
     assertArrayEquals(new int[]{ 3,2,1 }, input1);
+    
 	}`
  * I input an array `{1, 2, 3}` I'm expecting the return to be `{3,2,1}`
 
