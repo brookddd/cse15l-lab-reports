@@ -48,7 +48,6 @@ Caused by: java.lang.AssertionError: expected:<1> but was:<3>
         at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
         at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
         ... 36 more
-
 FAILURES!!!
 Tests run: 2,  Failures: 1`
 
