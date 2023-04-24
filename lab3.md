@@ -7,22 +7,18 @@ insert screenshots and explanations here
 
 ## Part 2
 
-1. Failure Inducing Input
+### 1. Failure Inducing Input
 * I did my tests with the ArrayExamples file. 
 `@Test 
 	public void testReverseInPlace2() {
-	
-    
-    int[] input1 = { 1,2,3 };
-    
-    ArrayExamples.reverseInPlace(input1);
-    
-    assertArrayEquals(new int[]{ 3,2,1 }, input1);
-	}`
+	int[] input1 = { 1,2,3 };
+	ArrayExamples.reverseInPlace(input1);
+	assertArrayEquals(new int[]{ 3,2,1 }, input1);
+	}	`
  * I input an array `{1, 2, 3}` I'm expecting the return to be `{3,2,1}`
 
 
-2. Input That Doesn't Induce Failure
+### 2. Input That Doesn't Induce Failure
 
 `@Test 
 	public void testReverseInPlace() {
@@ -32,7 +28,7 @@ insert screenshots and explanations here
 	}`
 * Here since there is only one element in the array, the reversed order is the same. So the test passes.
 
-3. The Symptom:
+### 3. The Symptom:
 
 `There was 1 failure:
 testReverseInPlace2(ArrayTests)
@@ -55,7 +51,7 @@ Caused by: java.lang.AssertionError: expected:<1> but was:<3>
 FAILURES!!!
 Tests run: 2,  Failures: 1`
 
-4. The bug
+### 4. The bug
 
 * Before 
 
