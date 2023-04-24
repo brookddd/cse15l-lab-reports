@@ -6,10 +6,11 @@ class Handler implements URLHandler {
     // various requests.
 
     public String handleRequest(URI url) {
+        String arg = "";
         if (url.getPath().contains("/add")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                return "/n" + parameters[1];
+                return arg + "\n" + parameters[1];
             }
         }
         return "404 Not Found!";
