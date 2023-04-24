@@ -11,8 +11,12 @@ insert screenshots and explanations here
 * I did my tests with the ArrayExamples file. 
 `@Test 
 	public void testReverseInPlace2() {
+	
+    
     int[] input1 = { 1,2,3 };
+    
     ArrayExamples.reverseInPlace(input1);
+    
     assertArrayEquals(new int[]{ 3,2,1 }, input1);
 	}`
  * I input an array `{1, 2, 3}` I'm expecting the return to be `{3,2,1}`
@@ -54,6 +58,8 @@ Tests run: 2,  Failures: 1`
 4. The bug
 
 * Before 
+
+
 `static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
@@ -61,6 +67,8 @@ Tests run: 2,  Failures: 1`
   }`
 
 * After 
+
+
 `static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i += 1) {
       int j = arr[i];
