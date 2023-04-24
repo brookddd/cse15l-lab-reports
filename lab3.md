@@ -2,8 +2,7 @@
 
 ## Part 1
 
-insert screenshots and explanations here
-
+I will insert descriptions and screenshots here. I'm currently stuck on compiling and running code while connected to the server.
 
 ## Part 2
 
