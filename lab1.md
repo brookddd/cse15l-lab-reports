@@ -33,4 +33,4 @@ Try a few such as:
 * `ls -a` lists all files in a folder, even the hidden ones that begin with `.`
 ![commands](commands.png)
 
-Above, I ran various commands. Such as `pwd` which prints the working directory.
+Above, I ran various commands. Such as `pwd` which prints the working directory. And `ls lat` which gives the full list of hidden files. I also attempted to print the file names in my lab partners' file. But I was denied permission to view them.
