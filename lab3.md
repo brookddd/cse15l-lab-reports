@@ -4,11 +4,11 @@
 
 ### Code for StringServer:
 
-![StringServer.java] (https://brookddd.github.io/cse15l-lab-reports/SS_code.png)
+![StringServer.java](https://brookddd.github.io/cse15l-lab-reports/SS_code.png)
 
 ### 1st Screenshot of `/add-message`
 
-![tomris] (https://brookddd.github.io/cse15l-lab-reports/tomris.png)
+![tomris](https://brookddd.github.io/cse15l-lab-reports/tomris.png)
 
 1. Which methods are called? 
 > `handleRequest(URI url)`
@@ -19,7 +19,7 @@
 
 #### 2nd Screenshot of `/add-message`
 
-![tomrishello] (https://brookddd.github.io/cse15l-lab-reports/tomrishello.png)
+![tomrishello](https://brookddd.github.io/cse15l-lab-reports/tomrishello.png)
 
 1. Which methods are called? 
 > `handleRequest(URI url)`
