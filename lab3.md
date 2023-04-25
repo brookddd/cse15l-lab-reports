@@ -2,7 +2,32 @@
 
 ## Part 1
 
-I will insert descriptions and screenshots here. I'm currently stuck on compiling and running code while connected to the server.
+### Code for StringServer:
+
+![StringServer.java] (https://brookddd.github.io/cse15l-lab-reports/SS_code.png)
+
+### 1st Screenshot of `/add-message`
+
+![tomris] (https://brookddd.github.io/cse15l-lab-reports/tomris.png)
+
+1. Which methods are called? 
+> `handleRequest(URI url)`
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the class
+> the `URI` is `/add-message?s=tomris`. The String is `tomris`.
+3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+> With each repetition, I change the value of `arg`, so that it adds the URI's `String`. But initially, `arg` is empty, so only `tomris` is printed with a new line for the sake of simplicity.
+
+#### 2nd Screenshot of `/add-message`
+
+![tomrishello] (https://brookddd.github.io/cse15l-lab-reports/tomrishello.png)
+
+1. Which methods are called? 
+> `handleRequest(URI url)`
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the class
+> the `URI` is `/add-message?s=Hello`. The String is `Hello`.
+3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+> With each repetition, I change the value of `arg`, so that it adds the URI's `String`. Therefore, `Hello` is added to `arg` and gets printed with a new line before it.
+
 
 ## Part 2
 
