@@ -8,7 +8,7 @@
 2) `find -name` finds files matching the name
 3) `find -type` finds directories or files based on syntax:
 
-In order to get all directories in `technical`:
+> In order to get all directories in `technical`:
 input: `$ find . -type d`
 output:
 `.
