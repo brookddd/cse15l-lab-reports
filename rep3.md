@@ -27,10 +27,8 @@ output:\
 `./911report/chapter-13.4.txt`\
 `./911report/chapter-13.5.txt`\
 `./911report/chapter-3.txt`\
-  
-2)  `find -name` finds files matching the name
-3)  
-4)  `find -type` finds directories or files based on syntax:
+
+2)  `find -type` finds directories or files based on syntax:
 > In order to get all directories in `technical`:\
 input:\
 `$ find . -type d`\
@@ -55,5 +53,16 @@ output: \
 `./Session3-PDF.txt`\
 `./DraftRecom-PDF.txt`\
 `./Session4-PDF.txt`
+\
+3)  `find -name` finds files matching the name:\
+> Let's say I don't know where in the `technical` file diversity_priorities is. Then I can input:\
+`find . -name diversity_priorities.txt`\
+and the output will be:\
+`./government/About_LSC/diversity_priorities.txt`\
 
+> Combining this with my knowledge of searching by type, I can find the location of the Media folder:
+input:\
+`find . -type d -name Media`\
+output:\
+`./government/Media`\
 4)  `find -empty` find empty files or directories in the directory
