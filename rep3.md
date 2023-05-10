@@ -1,7 +1,7 @@
 # `find` Command Examples
 
-1) `find -size` finds files matching the size
-> To find the files and directories __less__ than 1 Kilobyte I used:\
+## 1) `find -size` finds files matching the size
+To find the files and directories __less__ than 1 Kilobyte I used:\
 input:\
 `find . -size -1k`\
 output:\
@@ -15,7 +15,7 @@ output:\
 `./plos/pmed.0020226.txt`\
 `./911report`
 
-> To find the files and directories __more__ than 200 Kilobytes I used:\
+To find the files and directories __more__ than 200 Kilobytes I used:\
 input:\
 `$ find . -size +200k`\
 output:\
@@ -28,8 +28,8 @@ output:\
 `./911report/chapter-13.5.txt`\
 `./911report/chapter-3.txt`\
 
-2)  `find -type` finds directories or files based on syntax:
-> In order to get all directories in `technical`:\
+## 2)  `find -type` finds directories or files based on syntax:
+In order to get all directories in `technical`:\
 input:\
 `$ find . -type d`\
 output:\
@@ -45,7 +45,7 @@ output:\
 `./biomed`\
 `./911report`
 
-> To get all the files in `government/Alcohol_Problems`:\
+To get all the files in `government/Alcohol_Problems`:\
 input:\
 `$ find . -type f`\
 output: \
@@ -54,20 +54,20 @@ output: \
 `./DraftRecom-PDF.txt`\
 `./Session4-PDF.txt`
 
-3)  `find -name` finds files matching the name:
-> Let's say I don't know where in the `technical` file diversity_priorities is. Then I can input:\
+## 3)  `find -name` finds files matching the name:
+Let's say I don't know where in the `technical` file diversity_priorities is. Then I can input:\
 `find . -name diversity_priorities.txt`\
 and the output will be:\
 `./government/About_LSC/diversity_priorities.txt`\
 
-> Combining this with my knowledge of searching by type, I can find the location of the Media folder:\
+Combining this with my knowledge of searching by type, I can find the location of the Media folder:\
 input:\
 `find . -type d -name Media`\
 output:\
 `./government/Media`
 
-4)  `find -...depth` to limit the listing results:
-> In the directory `government`, there are multiple other directories. So the command `$ find . -type d` wasn't simple enough. To get the directories directly in `technical`:\
+## 4)  `find -...depth` to limit the listing results:
+In the directory `government`, there are multiple other directories. So the command `$ find . -type d` wasn't simple enough. To get the directories directly in `technical`:\
 input:\
 `$ find . -type d -maxdepth 1`\
 output:\
@@ -77,7 +77,7 @@ output:\
 `./biomed`\
 `./911report`\
 
-> Similarily, 
+Similarily, 
 `$ find . -type d -mindepth 1` will print the directories that have only 1 other directory inside:\
 `./government`\
 `./government/About_LSC`\
