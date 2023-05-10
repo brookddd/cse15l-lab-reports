@@ -1,8 +1,18 @@
-* `find` Command Examples
+# `find` Command Examples
 
-
-
-1) `find -size` finds files matching the size
+1) `find -size` finds files matching the size\
+> To get an understanding of how big the files are I used:\
+input: `find . -size -1k`\
+output:\
+`.
+./government
+./government/About_LSC
+./government/Env_Prot_Agen
+./government/Alcohol_Problems
+./government/Post_Rate_Comm
+./plos/pmed.0020191.txt
+./plos/pmed.0020226.txt
+./911report`
 
   
 2)  `find -name` finds files matching the name
@@ -31,4 +41,4 @@ output:
 ./DraftRecom-PDF.txt
 ./Session4-PDF.txt`
 
-5) `find -empty` find empty files or directories in the directory
+4)  `find -empty` find empty files or directories in the directory
