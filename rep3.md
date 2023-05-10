@@ -64,10 +64,27 @@ and the output will be:\
 input:\
 `find . -type d -name Media`\
 output:\
-`./government/Media`\
+`./government/Media`
 
-4)  `find -empty` finds empty directories in the directory:\
-> In the directory `technical`, there are no empty ones. Therefore when I input:\
-`find . -empty`\
-The output was empty.
-> 
+4)  `find -...depth` to limit the listing results:
+> In the directory `government`, there are multiple other directories. So the command `$ find . -type d` wasn't simple enough. To get the directories directly in `technical`:
+input:\
+`$ find . -type d -maxdepth 1`\
+output:\
+`.`\
+`./government`\
+`./plos`\
+`./biomed`\
+`./911report`\
+> Similarily, 
+`$ find . -type d -mindepth 1` will print the directories that have only 1 other directory inside:\
+`./government`\
+`./government/About_LSC`\
+`./government/Env_Prot_Agen`\
+`./government/Alcohol_Problems`\
+`./government/Gen_Account_Office`\
+`./government/Post_Rate_Comm`\
+`./government/Media`\
+`./plos`\
+`./biomed`\
+`./911report`
