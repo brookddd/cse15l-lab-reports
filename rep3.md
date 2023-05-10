@@ -54,7 +54,7 @@ output: \
 `./DraftRecom-PDF.txt`\
 `./Session4-PDF.txt`
 \
-3)  `find -name` finds files matching the name:\
+3)  `find -name` finds files matching the name:
 > Let's say I don't know where in the `technical` file diversity_priorities is. Then I can input:\
 `find . -name diversity_priorities.txt`\
 and the output will be:\
