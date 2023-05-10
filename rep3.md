@@ -89,3 +89,8 @@ output:\
 `./plos`\
 `./biomed`\
 `./911report`
+
+
+## Sources:
+[Redhat](https://www.redhat.com/sysadmin/linux-find-command)
+[Linuxize](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/#find-files-by-type)
