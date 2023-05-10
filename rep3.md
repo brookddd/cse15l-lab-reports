@@ -23,7 +23,7 @@ output:
 ./biomed
 ./911report`
 
-> To get all the files in `government/Alcohol_Problems` I typed:
+> To get all the files in `government/Alcohol_Problems`:
 input: `$ find . -type f`
 output: 
 `./Session2-PDF.txt
