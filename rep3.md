@@ -67,7 +67,7 @@ output:\
 `./government/Media`
 
 4)  `find -...depth` to limit the listing results:
-> In the directory `government`, there are multiple other directories. So the command `$ find . -type d` wasn't simple enough. To get the directories directly in `technical`:
+> In the directory `government`, there are multiple other directories. So the command `$ find . -type d` wasn't simple enough. To get the directories directly in `technical`:\
 input:\
 `$ find . -type d -maxdepth 1`\
 output:\
