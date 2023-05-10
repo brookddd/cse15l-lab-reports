@@ -53,16 +53,21 @@ output: \
 `./Session3-PDF.txt`\
 `./DraftRecom-PDF.txt`\
 `./Session4-PDF.txt`
-\
+
 3)  `find -name` finds files matching the name:
 > Let's say I don't know where in the `technical` file diversity_priorities is. Then I can input:\
 `find . -name diversity_priorities.txt`\
 and the output will be:\
 `./government/About_LSC/diversity_priorities.txt`\
 
-> Combining this with my knowledge of searching by type, I can find the location of the Media folder:
+> Combining this with my knowledge of searching by type, I can find the location of the Media folder:\
 input:\
 `find . -type d -name Media`\
 output:\
 `./government/Media`\
-4)  `find -empty` find empty files or directories in the directory
+
+4)  `find -empty` finds empty directories in the directory:\
+> In the directory `technical`, there are no empty ones. Therefore when I input:\
+`find . -empty`\
+The output was empty.
+> 
