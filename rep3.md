@@ -76,6 +76,7 @@ output:\
 `./plos`\
 `./biomed`\
 `./911report`\
+
 > Similarily, 
 `$ find . -type d -mindepth 1` will print the directories that have only 1 other directory inside:\
 `./government`\
