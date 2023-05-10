@@ -14,6 +14,7 @@ output:\
 `./plos/pmed.0020191.txt`\
 `./plos/pmed.0020226.txt`\
 `./911report`
+
 > To find the files and directories __more__ than 200 Kilobytes I used:\
 input:\
 `$ find . -size +200k`\
@@ -33,7 +34,7 @@ output:\
 > In order to get all directories in `technical`:
 input:\
 `$ find . -type d`\
-output:
+output:\
 `.`\
 `./government`\
 `./government/About_LSC`\
@@ -45,10 +46,11 @@ output:
 `./plos`\
 `./biomed`\
 `./911report`
+
 > To get all the files in `government/Alcohol_Problems`:
 input:\
 `$ find . -type f`\
-output: 
+output: \
 `./Session2-PDF.txt`\
 `./Session3-PDF.txt`\
 `./DraftRecom-PDF.txt`\
