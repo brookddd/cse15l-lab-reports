@@ -1,6 +1,6 @@
 4) Pressed: `<up>` `<enter>` *The last command i ran on my local terminal was `ssh ...@ieng6.ucsd.edu`*
 ![Image](https://tomriskio.github.io/cse15l-lab-reports/step4.png)
-5) Pressed: g i t c l o n e `<command + v>` *had the url copied from github)
+5) Pressed: g i t c l o n e `<command + v>` *had the url copied from github)*
 ![Image](https://tomriskio.github.io/cse15l-lab-reports/step5.png)
 6) Pressed: b a s h t e s t . s h `<enter>` 
 ![Image](https://tomriskio.github.io/cse15l-lab-reports/step6.png)
